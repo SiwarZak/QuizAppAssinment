@@ -57,9 +57,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             color: AppColors.black,
                           ),
                         ),
-                        const Text(
-                        ' of 6',
-                          style: TextStyle(
+                        Text(
+                        ' of ${questionsWithAnswers.length}',
+                          style: const TextStyle(
                           fontSize: 17,
                           color: AppColors.grey,
                         ),

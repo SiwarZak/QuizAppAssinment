@@ -66,8 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       )],
                       ),
                       SizedBox(
-                         width: 60.0, // Set width to 100 pixels
-                         height: 2.0, // Set height to 50 pixels
+                         width: 60.0, 
+                         height: 2.0, 
                          child: Container(
                          color: Colors.green, 
                          )
